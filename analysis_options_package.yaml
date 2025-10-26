@@ -1,0 +1,11 @@
+include: package:common_package/analysis_options.yaml
+
+linter:
+  rules:
+    # One of the most important rules. Docs for package public APIs make a good package.
+    # https://dart-lang.github.io/linter/lints/package_api_docs.html
+    - package_api_docs
+
+    # Good packages document everything
+    # https://dart-lang.github.io/linter/lints/public_member_api_docs.html
+    - public_member_api_docs
